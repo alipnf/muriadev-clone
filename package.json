@@ -1,0 +1,23 @@
+{
+  "name": "muriadev-clone",
+  "version": "1.0.0",
+  "description": "Belajar tailwind",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/style/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alipnf/muriadev-clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alipnf/muriadev-clone/issues"
+  },
+  "homepage": "https://github.com/alipnf/muriadev-clone#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
