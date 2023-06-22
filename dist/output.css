@@ -600,6 +600,11 @@ body {
   margin-bottom: 14rem;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mt-28 {
   margin-top: 7rem;
 }
@@ -630,6 +635,10 @@ body {
 
 .mr-0 {
   margin-right: 0px;
+}
+
+.mt-40 {
+  margin-top: 10rem;
 }
 
 .block {
@@ -743,6 +752,11 @@ body {
   padding-bottom: 5rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -801,6 +815,21 @@ body {
 .text-slate-100 {
   --tw-text-opacity: 1;
   color: rgb(241 245 249 / var(--tw-text-opacity));
+}
+
+.text-purple-800 {
+  --tw-text-opacity: 1;
+  color: rgb(107 33 168 / var(--tw-text-opacity));
+}
+
+.text-red-700 {
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
+.text-slate-300 {
+  --tw-text-opacity: 1;
+  color: rgb(203 213 225 / var(--tw-text-opacity));
 }
 
 .duration-150 {
