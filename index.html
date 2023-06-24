@@ -9,12 +9,12 @@
   <body>
     <!-- header start -->
     <header class="container mx-auto mt-6 p-4">
-      <nav class="lg:flex lg:items-center lg:justify-between">
+      <nav class="flex items-center justify-between">
         <div>
           <h1 class="text-4xl text-white">MuriaDev</h1>
         </div>
         <div>
-          <ul class="lg:flex lg:items-center lg:gap-4">
+          <ul class="hidden lg:flex lg:items-center lg:gap-4">
             <li>
               <a
                 href="#"
@@ -51,6 +51,53 @@
               >
             </li>
           </ul>
+          <div class="tham-e-squeeze tham tham-w-6 hover:opacity-100 lg:hidden">
+            <div class="tham-box">
+              <div class="tham-inner bg-white" />
+            </div>
+          </div>
+          <div
+            class="absolute right-0 top-24 hidden w-full rounded-lg bg-[#3b3844] p-4 opacity-100"
+            id="navbar"
+          >
+            <ul class="flex flex-col items-center justify-center space-y-5">
+              <li>
+                <a
+                  href="#"
+                  class="text-xl text-white duration-150 hover:text-purple-200"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-xl text-white duration-150 hover:text-purple-200"
+                  >About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-xl text-white duration-150 hover:text-purple-200"
+                  >Events</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-xl text-white duration-150 hover:text-purple-200"
+                  >Contact</a
+                >
+              </li>
+              <li class="lg:ml-12">
+                <a
+                  href="#"
+                  class="block w-fit rounded-full bg-[#D0BCFF] px-6 py-3 text-xl duration-100 hover:bg-[#381E72] hover:text-white"
+                  >Gabung Sekarang</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -199,5 +246,7 @@
       </div>
     </div>
     <!-- footer end -->
+
+    <script src="./src/js/script.js"></script>
   </body>
 </html>
