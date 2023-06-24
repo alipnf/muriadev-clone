@@ -617,16 +617,12 @@ body {
   margin-top: 10rem;
 }
 
-.mt-44 {
-  margin-top: 11rem;
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
 }
 
 .block {
@@ -641,17 +637,9 @@ body {
   display: grid;
 }
 
-.hidden {
-  display: none;
-}
-
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -720,6 +708,11 @@ body {
   padding-right: 1rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -743,11 +736,6 @@ body {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .text-left {
@@ -842,14 +830,14 @@ body {
   background-color: rgb(56 30 114 / var(--tw-bg-opacity));
 }
 
-.hover\:text-white:hover {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .hover\:text-purple-200:hover {
   --tw-text-opacity: 1;
   color: rgb(233 213 255 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:shadow-md:hover {
@@ -924,10 +912,6 @@ body {
 }
 
 @media (min-width: 1024px) {
-  .lg\:mr-12 {
-    margin-right: 3rem;
-  }
-
   .lg\:ml-12 {
     margin-left: 3rem;
   }
@@ -940,20 +924,8 @@ body {
     align-items: center;
   }
 
-  .lg\:justify-center {
-    justify-content: center;
-  }
-
   .lg\:justify-between {
     justify-content: space-between;
-  }
-
-  .lg\:justify-items-center {
-    justify-items: center;
-  }
-
-  .lg\:gap-3 {
-    gap: 0.75rem;
   }
 
   .lg\:gap-4 {
