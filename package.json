@@ -4,7 +4,7 @@
   "description": "Belajar tailwind",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/style/input.css -o ./dist/output.css --watch"
+    "dev": "npx tailwindcss build ./src/style/input.css -o ./dist/output.css "
   },
   "repository": {
     "type": "git",
